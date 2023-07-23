@@ -15,12 +15,11 @@ import equipeperfil8 from '../images/equipeperfil8.png'
 export default class Texto2 extends Component {
   render() {
     return (
-    <div className="texto2">        
+    <div className="texto2" id="equipe">        
         <div>
             <h1><img src={equipe} className="equipe" alt="" /> Nossa Equipe <img src={equipe} className="equipe" alt="" /></h1>
             <p className="p">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptates deleniti obcaecati possimus at natus maxime numquam neque itaque, fugiat cumque sint voluptatibus consequatur. Quam placeat ut eligendi enim voluptatum.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptates deleniti obcaecati possimus at natus maxime numquam neque itaque, fugiat cumque sint voluptatibus consequatur. Quam placeat ut eligendi enim voluptatum.
+            A equipe do Apadrinhe um Sorriso é composta por corações generosos e dedicados, unidos por uma causa maior: transformar vidas e levar esperança às crianças da comunidade Parque das Missões, em Caxias, Rio de Janeiro. Cada membro dessa família tem um papel fundamental na construção de um futuro mais brilhante para nossos pequenos, e juntos formamos um time imbatível.
 
             </p>
             <div className="container-perfil">

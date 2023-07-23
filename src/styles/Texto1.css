@@ -27,3 +27,8 @@ h1{
 .ico{
    font-size: 30px;
 }
+
+.clique{
+    text-decoration: none;
+    color: black;
+}
