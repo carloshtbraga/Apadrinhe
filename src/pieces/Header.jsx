@@ -13,7 +13,7 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <img className="logoheader" src={logo2} alt="" width="100px" />
         <Navbar.Brand href="#">
-          <h3>Apadrinhe um sorriso</h3>
+          <h3 className="h3header">Apadrinhe um sorriso</h3>
         </Navbar.Brand>
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -26,7 +26,7 @@ function NavScrollExample() {
               target="_blank"
               href="https://www.facebook.com/apadrinheumsorrisoPQM/?locale=pt_BR"
             >
-              Facebook
+              <p className="pheader">Facebook</p>
             </Nav.Link>
 
             <Nav.Link
@@ -34,24 +34,24 @@ function NavScrollExample() {
               href="https://www.instagram.com/apadrinheumsorrisooficial/"
               target="_blank"
             >
-              <p>Instagram</p>
+              <p className="pheader">Instagram</p>
             </Nav.Link>
             <Nav.Link className="nav" href="#equipe">
-              <p>Equipe</p>
+              <p className="pheader">Equipe</p>
             </Nav.Link>
             <Nav.Link
               className="nav"
               href="https://www.vakinha.com.br/3855330"
               target="_blank"
             >
-              <p>Doar</p>
+              <p className="pheader">Doar</p>
             </Nav.Link>
           </Nav>
           <Navbar.Brand
             href="https://www.vakinha.com.br/3855330"
             target="_blank"
           >
-            <h3 className="doar">Doar</h3>
+            <h3 className="doar h3header">Doar</h3>
           </Navbar.Brand>
           <Navbar.Brand className="doar">
             <a href="https://www.vakinha.com.br/3855330" target="_blank" rel="noreferrer">

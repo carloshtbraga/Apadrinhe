@@ -22,11 +22,19 @@
 
   .nav{
     margin-top: 10px;
-    color: lightblue;
+    color: rgb(153, 153, 153);
+  }
+
+  .pheader{
+    color: rgb(168, 167, 167);
   }
 
   .doar{
     margin-top: 10px;
+  }
+
+  .h3header{
+    color: white;
   }
 
 
