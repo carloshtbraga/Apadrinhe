@@ -3,26 +3,27 @@ import ExampleCarouselImage from './ExampleCarouselImage';
 import banner1 from '../images/banner1.jpg'
 import banner2 from '../images/banner2.jpg'
 import banner3 from '../images/banner3.jpg'
+import '../styles/Carro.css'
 
 function Carro() {
   return (
-    <Carousel style={{width: '98.5%', margin: 'auto', marginTop:'20px'}}>
+    <Carousel className="main-carro">
       <Carousel.Item>
-        <ExampleCarouselImage src={banner1}/>
+        <ExampleCarouselImage className="carro-img" src={banner1}/>
         <Carousel.Caption>
           <h1>First slide label</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage src={banner2}/>
+        <ExampleCarouselImage className="carro-img" src={banner2}/>
         <Carousel.Caption>
           <h1>Second slide label</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <ExampleCarouselImage src={banner3}/>
+      <ExampleCarouselImage className="carro-img" src={banner3}/>
         <Carousel.Caption>
           <h1>Third slide label</h1>
           <p>

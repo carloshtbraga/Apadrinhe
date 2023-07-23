@@ -1,0 +1,22 @@
+.main-carro{
+    width: 98.5%; 
+    margin: auto; 
+    margin-top:20px;
+}
+
+@media screen and (min-width: 1900px) {
+    .main-carro {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-carro {
+        width: 93.5%;
+        height: 50%;
+        
+    }
+    .carro-img{
+        max-height: 50%;
+    }
+}
