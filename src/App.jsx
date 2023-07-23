@@ -22,6 +22,7 @@ function App() {
      <Destaques />
      <Texto2 />
      <Footer />
+   
 
      
      </>
