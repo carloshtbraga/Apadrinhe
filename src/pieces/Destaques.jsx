@@ -16,22 +16,22 @@ export default function Destaques() {
 
     <br /><br /><br /><br />
     
-    <div style={{ display: 'flex'}}>
+    <div style={{ display: 'flex'}} className="container-destaque">
   <Card style={{ width: "100%", marginLeft: '10px', marginBottom:'50px' }} className="destaque">
     <Card.Body>
       <Card.Title className="card-title" style={{ textAlign:'center' }}>João <FaMedal /></Card.Title>
 
     </Card.Body>
-    <Card.Img variant="top" src={destaque2} style={{ maxHeight: '600px', objectFit: 'cover' }} />
+    <Card.Img variant="top" src={destaque2} style={{ maxHeight: '600px',objectFit: 'cover' }} />
   </Card>
-  <Card style={{ width: "100%", marginLeft: '50px', marginBottom:'50px' }} className="destaque">
+  <Card style={{ width: "100%", marginLeft: '10px', marginBottom:'50px' }} className="destaque">
     <Card.Body>
       <Card.Title className="card-title" style={{ textAlign:'center' }}>Maria <FaMedal /></Card.Title>
   
     </Card.Body>
     <Card.Img variant="top" src={destaque3} style={{ maxHeight: '600px', objectFit: 'cover' }} />
   </Card>
-  <Card style={{ width: "100%", marginLeft: '50px', marginBottom:'50px', marginRight: '10px' }} className="destaque">
+  <Card style={{ width: "100%", marginLeft: '10px', marginBottom:'50px', marginRight: '10px' }} className="destaque">
     <Card.Body>
       <Card.Title className="card-title" style={{ textAlign:'center' }}>Joana <FaMedal /></Card.Title>
   

@@ -11,7 +11,7 @@ export default class Texto1 extends Component {
             <img className="textoimg" src={logo} alt="" width='400px'/>
         </div>
         <div>
-            <h1>Seja Bem-Vindo</h1>
+            <h1><b>Seja Bem-Vindo</b></h1>
             <p className="p">
             É com imensa alegria e gratidão que lhe damos as boas-vindas a esta plataforma dedicada a uma causa tão nobre e transformadora. Aqui, a magia acontece através da solidariedade, amor ao próximo e da oportunidade de fazer a diferença na vida de crianças e adolescentes.
 

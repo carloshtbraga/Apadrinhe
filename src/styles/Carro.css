@@ -1,17 +1,19 @@
-.main-carro{
-    width: 70.5%; 
-    margin: auto; 
-    margin-top:20px;
+.main-carro {
+  width: 70.5%;
+  margin: auto;
+  margin-top: 20px;
 }
 
+.carro-img {
+  max-height: 500px;
+}
 
 @media screen and (max-width: 700px) {
-    .main-carro {
-        width: 93.5%;
-        height: 50%;
-        
-    }
-    .carro-img{
-        max-height: 50%;
-    }
+  .main-carro {
+    width: 93.5%;
+    height: 50%;
+  }
+  .carro-img {
+    max-height: 250px;
+  }
 }

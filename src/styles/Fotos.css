@@ -36,6 +36,7 @@
 
   .body-foto {
     width: 100%;
+    margin-bottom: 10px
   }
 
   .card-foto {
@@ -44,6 +45,7 @@
   }
   .card-foto2 {
     width: 90%;
+    margin-top: 8px;
   }
   .card-foto3 {
     width: 90%;
