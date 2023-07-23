@@ -7,12 +7,10 @@ export default function Title({title, img}) {
           <h1 className='title'>
             {" "}
           {title}
-          {" "}
-          {" "}
-          {" "}
+         
              
           </h1>
-                   <img src={img} alt="" width={'80px'}/> 
+              
         </div>
 
   )
