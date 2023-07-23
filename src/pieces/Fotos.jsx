@@ -21,6 +21,12 @@ export default class Fotos extends Component {
     Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
     Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
     Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
+    Jovem que se alfabetizou aos 12 anos abriu primeira sala de leitura em favela de Caxias
     </Card.Text>
   </Card.Body>
 </Card>
