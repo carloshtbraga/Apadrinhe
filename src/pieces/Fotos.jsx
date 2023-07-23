@@ -5,11 +5,14 @@ import fabi from '../images/fabi.jpg'
 import foto2 from '../images/foto2.jpg'
 import foto3 from '../images/foto3.jpg'
 import foto4 from '../images/foto4.jpg'
-
+import Title from "./Title";
+import historia from '../images/historia.png'
 export default class Fotos extends Component {
   render() {
     return (
         <div>
+          <br /><br /><br />
+          <Title title="Nossa História" img={historia}/>
             <div style={{ display: 'flex'}}>
 
 <Card style={{ width: "60%", marginLeft: '10px', marginTop:'50px', marginRight: '50px', marginBottom:'50px', backgroundColor:'lightgray' }}>
@@ -79,7 +82,7 @@ export default class Fotos extends Component {
 
 
 
-
+<br /><br /><br /><br />
         </div>
     );
   }

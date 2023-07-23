@@ -1,0 +1,19 @@
+.titlec {
+    display: flex; /* Adiciona flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    background: rgb(79,3,3);
+    background: linear-gradient(90deg, rgba(79,3,3,1) 0%, rgba(180,69,69,1) 51%, rgba(79,3,3,1) 100%);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    width: max-content;
+    color: white;
+    margin: 0 auto;
+}
+
+.title{
+    margin-left: 10px;
+    margin-right: 10px;
+}

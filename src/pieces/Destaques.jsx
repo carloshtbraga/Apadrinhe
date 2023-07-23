@@ -3,15 +3,18 @@ import destaque1 from '../images/destaque1.jpg'
 import destaque3 from '../images/destaque3.jpg'
 import destaque2 from '../images/destaque2.jpg'
 import { FaMedal,  } from 'react-icons/fa';
-import { PiMedalLight } from "react-icons/pi";
 import '../styles/Destaques.css'
+import Title from "./Title";
+import trofeu from '../images/trofeu.png'
 
 
 export default function Destaques() {
   return (
-    <div><h1><PiMedalLight/>Destaques do mês:</h1>
+    <div>
+     <Title title="Destaques do Mês" img={trofeu}/>
+    
 
-    <br /><br />
+    <br /><br /><br /><br />
     
     <div style={{ display: 'flex'}}>
   <Card style={{ width: "100%", marginLeft: '10px', marginBottom:'50px' }} className="destaque">
