@@ -1,0 +1,30 @@
+.texto1{
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.p{
+    text-align: center;
+    margin: 20px;
+    font-family: monospace;
+
+}
+.textoimg{
+    margin-top: 30px;
+    width: 400px;
+}
+
+.ico{
+   font-size: 30px;
+}

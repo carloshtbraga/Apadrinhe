@@ -1,0 +1,5 @@
+body{
+    font-family: monospace;
+    background: rgb(79,3,3);
+    background: linear-gradient(90deg, rgba(79,3,3,1) 0%, rgb(82, 166, 53) 51%, rgba(79,3,3,1) 100%);
+}

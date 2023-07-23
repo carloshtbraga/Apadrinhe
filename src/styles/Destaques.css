@@ -1,0 +1,5 @@
+.destaque{
+    background: rgb(179,179,0);
+background: linear-gradient(90deg, rgba(179,179,0,1) 0%, rgba(239,242,12,1) 51%, rgba(179,179,0,1) 100%);
+box-shadow: 4px 4px 8px rgba(212, 215, 6, 0.3);
+}
