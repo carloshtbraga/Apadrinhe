@@ -45,6 +45,9 @@ export default class History extends Component {
             </Card.Body>
           </Card>
         </div>
+        <br />   <br />   <br />
+        <Title title="Algumas atividades" img={historia}/>
+        <br />   <br />   <br />
 
         <div className="container-foto2">
           <Card className='card-foto2 animate__animated animate__fadeInLeft'>
@@ -77,6 +80,7 @@ export default class History extends Component {
             <Card.Img variant="top" src={foto4} style={{ maxHeight: '300px', objectFit: 'cover' }} />
           </Card>
         </div>
+        <br />   <br />   <br />
       </section>
     );
   }

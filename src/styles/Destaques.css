@@ -16,7 +16,6 @@
     background: linear-gradient(90deg, rgb(249, 249, 117) 0%, rgb(250, 252, 183) 51%, rgb(249, 249, 117) 100%);
     box-shadow: 4px 4px 8px rgba(212, 215, 6, 0.3);
     height: max-content;
-    padding: 20px;
     border-radius: 5%;
 }
 
