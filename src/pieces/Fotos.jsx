@@ -22,11 +22,11 @@ export default class Fotos extends Component {
   <br />
     <Card.Text style={{ textAlign:'center' }} className="text-foto">
     
-    A origem da ONG é parecida com muitas outras que já foram criadas, que é ajudar ao próximo e quem precisa. Por esse motivo em dezembro de 2009, a Fabiana da Silva, pedagoga e moradora da região do Parque das Missões, em Duque de Caxias, na Baixada Fluminense, criou a ONG Apadrinhe um Sorriso, pensando em realizar ações sociais e filantropia para os moradores da comunidade na qual mora.
+    A origem da ONG é parecida com muitas outras que já foram criadas, que é ajudar ao próximo e quem precisa. Por esse motivo em dezembro de 2009, a Fabiana da Silva, pedagoga e moradora da região do Parque das Missões, em Duque de Caxias, na Baixada Fluminense, criou a ONG Apadrinhe um Sorriso<span className="span"> pensando em realizar ações sociais e filantropia para os moradores da comunidade na qual mora.
 
 Durante a realização de sua monografia, Fabbi teve a ideia de criar uma organização não governamental com o objetivo de ajudar os jovens da sua região, para isso pediu auxílio de seus colegas da faculdade de pedagogia da UERJ, para levar educação, cultura e cidadania para esses moradores da comunidade do Parque das Missões. Foi assim que ela criou a ONG, que começou de forma pontual, mas com a ajuda de doações de pessoas físicas, apoio e parcerias com os comerciantes da própria comunidade, das organizações sociais, campanhas pontuais pela comercialização de produtos doados em bazares beneficentes e do aumento de voluntários, fez com que as ações sociais que eram pontuais virassem constantes.
 
-Fabiana da Silva, a Fabbi, como é conhecida em sua comunidade, é um símbolo para todos do Parque das Missões de como é possível vencer na vida através de muita luta e da educação. A Fabbi, sempre teve uma paixão enorme pela literatura e pedagogia, e foi através desse amor que ela dedicava o tempo que tinha dentro do ônibus para ir e voltar do trabalho de auxiliar geral para estudar e foi assim que ela conseguiu realizar o sonho de cursar pedagogia na UERJ.
+Fabiana da Silva, a Fabbi, como é conhecida em sua comunidade, é um símbolo para todos do Parque das Missões de como é possível vencer na vida através de muita luta e da educação. A Fabbi, sempre teve uma paixão enorme pela literatura e pedagogia, e foi através desse amor que ela dedicava o tempo que tinha dentro do ônibus para ir e voltar do trabalho de auxiliar geral para estudar e foi assim que ela conseguiu realizar o sonho de cursar pedagogia na UERJ.</span>
     </Card.Text>
   </Card.Body>
 </Card>
@@ -36,13 +36,13 @@ Fabiana da Silva, a Fabbi, como é conhecida em sua comunidade, é um símbolo p
     <Card.Title style={{ textAlign:'center' }}>Um pouco mais...</Card.Title>
     <br />
     <Card.Text style={{ textAlign:'center' }} className="text-foto">
-    Nós, do Apadrinhe um Sorriso, estamos dedicados a espalhar alegria e esperança nas vidas das crianças da comunidade do Parque das Missões, em Duque de Caxias, no Rio de Janeiro. Com paixão e comprometimento, trabalhamos incansavelmente para fazer a diferença na vida desses jovens, proporcionando-lhes um futuro mais promissor.
+    Nós, do Apadrinhe um Sorriso, estamos dedicados a espalhar alegria e esperança nas vidas das crianças da comunidade do Parque das Missões. Com paixão e comprometimento, trabalhamos incansavelmente para fazer a diferença na vida desses jovens, proporcionando-lhes um futuro mais promissor.<span className="span">
 
 O Parque das Missões é uma comunidade vibrante e cheia de vida, mas também enfrenta desafios significativos. Sabemos que a infância é uma fase crucial na formação de um ser humano, e é por isso que buscamos oferecer apoio e oportunidades para cada criança que vive nesse lugar especial.
 
 Cada sorriso que ilumina o rosto de uma criança é uma prova do impacto positivo que podemos alcançar juntos.
 
-Nossas atividades variadas incluem programas educacionais, atividades recreativas, oficinas de arte e cultura, além de iniciativas que incentivam a consciência ambiental e a saúde. Com cada ação, esperamos não apenas expandir horizontes, mas também cultivar valores como solidariedade, respeito e empatia.
+Nossas atividades variadas incluem programas educacionais, atividades recreativas, oficinas de arte e cultura, além de iniciativas que incentivam a consciência ambiental e a saúde. Com cada ação, esperamos não apenas expandir horizontes, mas também cultivar valores como solidariedade, respeito e empatia.</span>
     </Card.Text>
   </Card.Body>
 </Card>

@@ -30,7 +30,9 @@
     width: 100%;
   }
 
-  .text-foto {
+ 
+
+  .span{
     display: none;
   }
 
@@ -40,15 +42,17 @@
   }
 
   .card-foto {
-    width: 90%;
-    margin-left: 50px;
+    width: 80%;
+    margin-bottom: 30px;
+
   }
   .card-foto2 {
-    width: 90%;
-    margin-top: 8px;
+    width: 80%;
+    margin-right: 10px;
+  
   }
   .card-foto3 {
-    width: 90%;
+    width: 80%;
 
   }
 }

@@ -1,7 +1,9 @@
 .texto1{
     display: flex;
     background-color: rgb(253, 253, 253);
-    margin: 50px;
+    width: 75%;
+    margin:auto;
+    margin-top: 100px;
     padding: 50px;
     border: 1px solid black;
     border-radius: 10px;
