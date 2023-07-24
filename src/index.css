@@ -1,5 +1,15 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: monospace;
-    background: rgb(79,3,3);
-    background: linear-gradient(90deg, rgb(145, 27, 27) 0%, rgb(186, 212, 176) 51%, rgba(145, 27, 27) 100%);
+}
+
+:root {
+    --rosa: #ffffff;
+    /* --verde: #ececa8; */
+    --verde: #302b2b;
 }

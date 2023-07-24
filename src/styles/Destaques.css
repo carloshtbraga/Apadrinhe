@@ -1,14 +1,22 @@
 @keyframes brilho-dourado {
     0% { box-shadow: 0 0 10px 5px gold; }
-    50% { box-shadow: 0 0 20px 10px gold; }
+    50% { box-shadow: 0 0 20px 10px rgba(255, 217, 0, 0.509); }
     100% { box-shadow: 0 0 10px 5px gold; }
   }
-.destaque {
-    background: rgb(179, 179, 0);
-    background: linear-gradient(90deg, rgba(179, 179, 0, 1) 0%, rgba(239, 242, 12, 1) 51%, rgba(179, 179, 0, 1) 100%);
-    box-shadow: 4px 4px 8px rgba(212, 215, 6, 0.3);
 
-    height: 330px;
+.destaques-section {
+    background-color: var(--rosa);
+    padding-top: 50px;
+    padding-bottom: 5%;
+    margin-bottom: -20%;
+}
+
+.destaque {
+    background: rgb(249, 249, 117);
+    background: linear-gradient(90deg, rgb(249, 249, 117) 0%, rgb(250, 252, 183) 51%, rgb(249, 249, 117) 100%);
+    box-shadow: 4px 4px 8px rgba(212, 215, 6, 0.3);
+    height: max-content;
+    border-radius: 5%;
 }
 
 .trofeu {
@@ -25,33 +33,31 @@
     justify-content: center;
     align-items: center;
     gap: 3%;
-
     max-width: 100%;
     height: 100%;
 
 }
+
 .destaque img:hover {
     background-color: gold;
     box-shadow: 0 0 10px 5px gold; /* Efeito de brilho dourado */
     animation: brilho-dourado 2s infinite;
-     
-    
 }
+
 @media screen and (max-width: 700px) {
-
-
-   
+    .destaques-section {
+        padding-bottom: 10%;
+        margin-bottom: -15%;
+    }
 
     .container-destaque{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        
     }
 
     .destaque{
-       max-width: 60%;
+        max-width: 95%;
+        padding: 10px;
+        margin: 10px auto;
     }
 }
