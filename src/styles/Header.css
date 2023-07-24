@@ -36,12 +36,22 @@
 
   .nav{
     margin-top: 15px;
-    color: white;
+    color: rgb(0, 225, 255);
+    transition: 0.5s;
+
   }
 
   .pheader{
     color: white;
+    transition: 0.5s;
   }
+
+  .nav:hover{
+    color: rgb(0, 225, 255);
+    transition: 0.5s;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);;    
+  }
+
 
 
   .doar1{
