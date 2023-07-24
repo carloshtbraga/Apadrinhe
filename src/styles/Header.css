@@ -10,7 +10,7 @@
 
 .header{
     background: rgb(79,3,3);
-    background: linear-gradient(90deg, rgba(79,3,3,1) 0%, rgba(180,69,69,1) 51%, rgba(79,3,3,1) 100%);
+    background: linear-gradient(90deg, rgb(145, 27, 27) 0%, rgb(230, 102, 102) 51%, rgba(145, 27, 27) 100%);
     /* width: 98.5%;
     margin: 10px 10px; */
     height: 150px;
@@ -43,13 +43,10 @@
     color: rgb(168, 167, 167);
   }
 
-  .doar{
-    margin-top: 10px;
-    
-  }
 
   .doar1{
     animation: tremor 0.3s infinite;
+
   }
 
 

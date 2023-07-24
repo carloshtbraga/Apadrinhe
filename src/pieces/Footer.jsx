@@ -1,19 +1,26 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import '../styles/Footer.css'
-import dev from '../images/devs4good.webp'
+import "../styles/Footer.css";
+import dev from "../images/devs4good.webp";
+import { FaAddressBook } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark" className='footer' style={{margin:'auto'}}>
-        <p className='endereco'>Parque das Missões, Duque de Caxias, RJ, Brazil
+      <nav className="footer">
+        <p className="endereco">
+          <FaAddressBook /> - Parque das Missões, Duque de Caxias, RJ, Brasil
+        </p>
+        <p className="endereco">
+          <BsFillTelephoneFill /> - Telefone:(21) 99506-7449
+        </p>
 
- - Telefone: (21) 99506-7449</p>
-        <Container >
-          <Navbar.Brand href="https://www.devs4good.com.br" target='_blank' style={{margin:'auto'}}>By Devs4Good © 2023 <img style={{width:'40px'}} src={dev} alt="" /></Navbar.Brand>
-        </Container>
-      </Navbar>
+        <p className="endereco">
+          <a href="https://www.devs4good.com.br">
+            By Devs4Good © 2023{" "}
+            <img className='imgfooter'src={dev} alt="" />
+          </a>
+        </p>
+      </nav>
     </>
   );
 }

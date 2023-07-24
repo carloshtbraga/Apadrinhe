@@ -19,7 +19,8 @@ export default class Texto2 extends Component {
         <div>
             <h1><img src={equipe} className="equipe" alt="" /> <b>Nossa Equipe </b><img src={equipe} className="equipe" alt="" /></h1>
             <p className="p">
-            A equipe do Apadrinhe um Sorriso é composta por corações generosos e dedicados, unidos por uma causa maior: transformar vidas e levar esperança às crianças da comunidade Parque das Missões, em Caxias, Rio de Janeiro. Cada membro dessa família tem um papel fundamental na construção de um futuro mais brilhante para nossos pequenos, e juntos formamos um time imbatível.
+            A equipe do Apadrinhe um Sorriso é composta por corações generosos e dedicados, unidos por uma causa maior: transformar vidas e levar esperança às crianças da comunidade Parque das Missões, em Caxias, Rio de Janeiro. </p>
+            <p className="p">Cada membro dessa família tem um papel fundamental na construção de um futuro mais brilhante para nossos pequenos, e juntos formamos um time imbatível.
 
             </p>
             <div className="container-perfil">
