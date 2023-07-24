@@ -1,0 +1,87 @@
+.history-section {
+  background-color: var(--rosa);
+  position: relative;
+  z-index: -1;
+  padding-top: 10%;
+  margin-top: -20%;
+}
+
+.history-section img {
+  border-radius: 10px;
+}
+
+.card-foto1 {
+  width: 97%;
+  height: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  background-color: var(--rosa);
+  border: none;
+}
+
+.nascimento {
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.nascimento img {
+  width: 60%;
+  margin: auto;
+}
+
+.container-foto2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-foto2 {
+  width: 30%;
+  padding: 30px;
+  background-color: #feebe3;
+}
+
+@media screen and (max-width: 700px) {
+  .history-section {
+    padding-top: 15%;
+  }
+
+  .container-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-foto1 {
+    flex-direction: column;
+    margin: 5px auto;
+    padding: 5px;
+  }
+
+  .nascimento img {
+    width: 100%;
+  }
+
+  .span {
+    display: none;
+  }
+
+  .body-foto {
+    width: 100%;
+    margin-bottom: 10px
+  }
+
+  .container-foto2 {
+    flex-direction: column;
+  }
+
+  .card-foto2 {
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+}

@@ -1,14 +1,18 @@
+.team-section {
+  background-color: var(--verde);
+  padding: 50px;
+  margin-top: -50px;
+}
+
 .texto2 {
   display: flex;
   background-color: rgb(253, 253, 253);
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
   padding: 50px;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
-  width: 80%;
+  width: 80vw;
 }
 
 h1 {
@@ -19,11 +23,10 @@ h1 {
 }
 
 .p {
-  text-align: center;
+  text-align: justify;
   margin: auto;
   font-family: monospace;
   width: 90%;
-
 }
 
 .equipe {
@@ -44,52 +47,18 @@ h1 {
     margin-left: 10px;
 }
 
-@media screen and (max-width: 1250px) {
-  .texto2 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(253, 253, 253);
-    margin: 50px;
-    padding: 50px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
-  }
-
-  .container-perfil {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-
-  h1 {
-    text-align: center;
-    font-family: monospace;
-    font-size: 15px;
-  }
-
-  .equipe {
-    width: 28px;
-  }
-
-  .perfil {
-    width: 150px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-}
-
-
 @media screen and (max-width: 700px) {
+    .team-section {
+      padding: 50px 0;
+    }
+  
     .texto2 {
       display: flex;
+      padding: 5px;
+      margin: 10px auto 10px;
+      width: 90%;
       flex-direction: column;
       background-color: rgb(253, 253, 253);
-      margin: 50px;
-      padding: 50px;
       border: 1px solid black;
       border-radius: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
@@ -114,10 +83,7 @@ h1 {
   
     .perfil {
       width: 50px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-top: 20px 10px 10px;
     }
   }
   

@@ -1,9 +1,13 @@
+.welcome {
+    background-color: var(--verde);
+    padding-top: 50px;
+}
+
 .texto1{
     display: flex;
-    background-color: rgb(253, 253, 253);
+    background-color: #f3f8e6;
     width: 75%;
     margin:auto;
-    margin-top: 100px;
     padding: 50px;
     border: 1px solid black;
     border-radius: 10px;
@@ -15,41 +19,54 @@ h1{
     font-family: monospace;
 }
 
-.p{
-    text-align: center;
+.p {
+    text-align: justify;
     margin: 20px;
     font-family: monospace;
-
 }
-.textoimg{
-    margin-top: 30px;
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.textoimg {
     width: 400px;
 }
 
-.ico{
+.ico {
    font-size: 30px;
 }
 
-.clique{
+.clique {
     text-decoration: none;
     color: black;
 }
 
+.clique p {
+    text-align: center;
+}
+
+.card-body {
+    text-align: justify !important;
+}
+
 
 @media screen and (max-width: 700px) {
-    .texto1{
+    .texto1 {
         display: flex;
         flex-direction: column;
         background-color: rgb(253, 253, 253);
-        margin: 50px;
-        padding: 50px;
+        margin: auto;
+        padding: 10px;
         border: 1px solid black;
         border-radius: 10px;
+        width: 95%;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     }
 
-    .textoimg{
-        margin-top: 30px;
-        width: 200px;
+    .textoimg {
+        margin: 30px auto;
+        width: 260px;
     }
 }

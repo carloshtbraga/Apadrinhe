@@ -1,4 +1,4 @@
-import '../styles/Carro.css'
+import '../styles/Carrousel.css'
 
 function ExampleCarouselImage({src}) {
   return (

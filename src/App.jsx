@@ -1,31 +1,27 @@
-
 import './App.css'
 import Header from './pieces/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carro from './pieces/Carro';
-import Fotos from './pieces/Fotos';
+import Carrousel from './pieces/Carrousel';
+import History from './pieces/History';
 import Footer from './pieces/Footer';
-import Texto1 from './pieces/Texto1';
+import Welcome from './pieces/Welcome';
 import Destaques from './pieces/Destaques';
-import Texto2 from './pieces/Texto2';
+import Team from './pieces/Team';
+import AnimateOnScroll from 'react-global-animate-on-scroll';
 
 
 function App() {
-
-
   return (
     <>
      <Header />
-     <Carro />
-     <Texto1 />
-     <Fotos />
+     <Carrousel />
+     <Welcome />
+     <History />
      <Destaques />
-     <Texto2 />
+     <Team />
      <Footer />
-   
-
-     
-     </>
+     <AnimateOnScroll animateOnce/>
+    </>
   )
 }
 
