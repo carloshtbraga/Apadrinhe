@@ -32,6 +32,7 @@ function Carro() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
   );
 }
 
