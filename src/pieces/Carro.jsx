@@ -10,24 +10,24 @@ function Carro() {
     <Carousel className="main-carro">
       <Carousel.Item>
         <ExampleCarouselImage className="carro-img" src={banner1}/>
-        <Carousel.Caption>
-          <h1>First slide label</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption className='texto-banner'>
+          <h1>Apadrinhe um Sorriso</h1>
+          <p>Quel tal apadrinhar o sorriso de uma criança?</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <ExampleCarouselImage className="carro-img" src={banner2}/>
-        <Carousel.Caption>
-          <h1>Second slide label</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className='texto-banner'>
+          <h1>Quer ajudar?</h1>
+          <p>Você pode nos ajudar com doações ou trabalho voluntário!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <ExampleCarouselImage className="carro-img" src={banner3}/>
-        <Carousel.Caption>
-          <h1>Third slide label</h1>
+      <Carousel.Caption className='texto-banner'>
+          <h1>Parque das Missões</h1>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Ficamos em uma comunidade em situação muito vulnerável.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

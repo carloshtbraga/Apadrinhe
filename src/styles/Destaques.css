@@ -1,7 +1,14 @@
+@keyframes brilho-dourado {
+    0% { box-shadow: 0 0 10px 5px gold; }
+    50% { box-shadow: 0 0 20px 10px gold; }
+    100% { box-shadow: 0 0 10px 5px gold; }
+  }
 .destaque {
     background: rgb(179, 179, 0);
     background: linear-gradient(90deg, rgba(179, 179, 0, 1) 0%, rgba(239, 242, 12, 1) 51%, rgba(179, 179, 0, 1) 100%);
     box-shadow: 4px 4px 8px rgba(212, 215, 6, 0.3);
+
+    height: 330px;
 }
 
 .trofeu {
@@ -11,6 +18,23 @@
 .trofeu1 {
     width: 80px;
     text-align: center;
+}
+
+.container-destaque {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 100%;
+    height: 100%;
+
+}
+.destaque img:hover {
+    background-color: gold;
+    box-shadow: 0 0 10px 5px gold; /* Efeito de brilho dourado */
+    animation: brilho-dourado 2s infinite;
+     
+    
 }
 @media screen and (max-width: 700px) {
 

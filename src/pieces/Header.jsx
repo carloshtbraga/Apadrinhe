@@ -55,7 +55,7 @@ function NavScrollExample() {
           </Navbar.Brand>
           <Navbar.Brand className="doar">
             <a href="https://www.vakinha.com.br/3855330" target="_blank" rel="noreferrer">
-              <img width="80px" src={coin} alt="" />
+              <img className="doar1" width="80px" src={coin} alt="" />
             </a>
           </Navbar.Brand>
         </Navbar.Collapse>

@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/Footer.css'
+import dev from '../images/devs4good.webp'
 
 function ColorSchemesExample() {
   return (
@@ -10,7 +11,7 @@ function ColorSchemesExample() {
 
  - Telefone: (21) 99506-7449</p>
         <Container >
-          <Navbar.Brand href="www.devs4good.com.br" target='_blank' style={{margin:'auto'}}>By Devs4Good - 2013</Navbar.Brand>
+          <Navbar.Brand href="https://www.devs4good.com.br" target='_blank' style={{margin:'auto'}}>By Devs4Good © 2023 <img style={{width:'40px'}} src={dev} alt="" /></Navbar.Brand>
         </Container>
       </Navbar>
     </>

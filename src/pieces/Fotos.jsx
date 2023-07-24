@@ -57,10 +57,10 @@ Nossas atividades variadas incluem programas educacionais, atividades recreativa
       Montamos um Sarau dentro da comunidade e aqui as crianças podem se expressar através da arte, seja lendo, recitando poesias, tocando instrumentos, etc.
       </Card.Text>
     </Card.Body>
-    <Card.Img variant="top" src={foto1} style={{ maxHeight: '200px', objectFit: 'cover' }} />
+    <Card.Img variant="top" src={foto1} style={{ maxHeight: '300px', objectFit: 'cover' }} />
   </Card>
   <Card className='card-foto3'>
-    <Card.Img variant="top" src={foto3} style={{ maxHeight: '200px', objectFit: 'cover' }} />
+    <Card.Img variant="top" src={foto3} style={{ maxHeight: '300px', objectFit: 'cover' }} />
     <Card.Body>
       <Card.Title style={{ textAlign:'center' }}>Esporte</Card.Title>
       <Card.Text style={{ textAlign:'center' }}>
@@ -75,7 +75,7 @@ Nossas atividades variadas incluem programas educacionais, atividades recreativa
       Além disso, também proporcionamos aulas de dança e atividades culturais, enriquecendo a vida das crianças com expressão artística e valorizando suas tradições.
       </Card.Text>
     </Card.Body>
-    <Card.Img variant="top" src={foto4} style={{ maxHeight: '200px', objectFit: 'cover' }} />
+    <Card.Img variant="top" src={foto4} style={{ maxHeight: '300px', objectFit: 'cover' }} />
   </Card>
 </div>
 

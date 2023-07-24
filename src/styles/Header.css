@@ -1,3 +1,13 @@
+@keyframes tremor {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}
+
+
 .header{
     background: rgb(79,3,3);
     background: linear-gradient(90deg, rgba(79,3,3,1) 0%, rgba(180,69,69,1) 51%, rgba(79,3,3,1) 100%);
@@ -16,8 +26,12 @@
     transform: rotate(360deg); /* Adiciona a rotação de 360 graus ao elemento */
   }
 
-  h3{
-    color: white;
+  .header h3{
+    background-image: linear-gradient(to right, white, green, red);
+    -webkit-background-clip: text; /* Para navegadores baseados em WebKit, como Chrome e Safari */
+    color: transparent;
+    -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
   }
 
   .nav{
@@ -31,6 +45,11 @@
 
   .doar{
     margin-top: 10px;
+    
+  }
+
+  .doar1{
+    animation: tremor 0.3s infinite;
   }
 
   .h3header{
